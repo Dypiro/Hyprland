@@ -17,7 +17,6 @@ lxappearance xfce4-settings sddm-git sddm-sugar-candy-git
 Or you can use the attached script "set-hypr" to install everything for you.
 
 make sure to run yay -Sc --aur to free up disk space
-and also make sure to clean in ~/.cache/yay from time to time
 
 Below is a list of the packages that would be installed
 
