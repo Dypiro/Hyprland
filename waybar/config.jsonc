@@ -171,10 +171,13 @@
     },
     
     "temperature": {
+        "interval": 30,
         "thermal-zone": 1,
-        "format": " {temperatureF}°F",
-        "critical-threshold": 70,
-        "format-critical": " {temperatureC}°C",
+        "format": " {temperatureC}°C",
+        "critical-threshold": 50,
+        "format-critical": " {temperatureF}°F",
+        "tooltip": false,
         "on-click": "kitty --start-as=fullscreen --title btop sh -c 'btop'"
     }
+}
 }
