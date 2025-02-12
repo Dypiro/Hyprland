@@ -175,7 +175,7 @@
         "thermal-zone": 1,
         "format": " {temperatureC}°C",
         "critical-threshold": 50,
-        "format-critical": " {temperatureF}°F",
+        "format-critical": " {temperatureC}°C",
         "tooltip": false,
         "on-click": "kitty --start-as=fullscreen --title btop sh -c 'btop'"
     }
